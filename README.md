@@ -1,18 +1,22 @@
 # TinyWreckitCourse
-Smart gates for FPV Stuffs
+Smart gates for FPV Stuffs indoors
+Plan on using Delta5 timer with remote ESP01s to trigger field gates.
 
 Work in progress..
 
 # Ideas:
-##  Phase 1:
-    1. Tracking a single channel at >1 different gates to:</b
+##  Phase 1: Delta 5
+    1. Track up to 4 channels:
        1. Track overall time
        2. Track lap time
        3. Track best lap time for configuration
        4. # of laps (total or of configuration)
-       5. Light up the next set of gates
-          a. Change colors of next gates to easily identify
-          b. Change course based on event (lap time, # of laps, etc).
-          
-##  Phase 2:
-    1. Scanning channels? Determine the # of channels that can be scanned (time between scan?)
+##  Phase 2: ESP's + LEDs
+       1. Each channel is assigned a color and changes start finish gate based on trigger.
+            a. First place color
+            b. Last to pass gate color
+       2. Last lap gate color change
+       3. Talk to remote (ESP-01) to trigger field gates
+       4. Changing course:
+            a. Odd vs Even lap changes
+
