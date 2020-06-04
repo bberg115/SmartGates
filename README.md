@@ -1,8 +1,8 @@
-# TinyWreckitCourse
-Smart gates for FPV Stuffs indoors
+# FPV Analog Course
+Smart gates for FPV Indoors
 Plan on using Delta5 timer with remote RPi/ESPs to trigger field gates.
 
-Work in progress..
+Work in progress.. '20-'21 Winter
 
 # Ideas:
 ##  Phase 1: Delta 5
